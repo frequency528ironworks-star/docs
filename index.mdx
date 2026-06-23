@@ -3,6 +3,48 @@ title: "Frequency528 Iron Works"
 description: "You dream it... I build it"
 ---
 
+<div style={{ textAlign: 'center', padding: '1rem 0 0 0' }}>
+  <style>
+    {`
+        @keyframes freq528Pulse {
+          0%, 100% {
+            transform: scale(1);
+            filter: drop-shadow(0 0 8px rgba(220, 38, 38, 0.5)) drop-shadow(0 0 16px rgba(192, 192, 192, 0.3));
+          }
+          50% {
+            transform: scale(1.06);
+            filter: drop-shadow(0 0 24px rgba(220, 38, 38, 0.95)) drop-shadow(0 0 36px rgba(184, 134, 11, 0.7));
+          }
+        }
+        @keyframes freq528Shimmer {
+          0% { background-position: 0% 50%; }
+          100% { background-position: 300% 50%; }
+        }
+        .freq-528-title {
+          font-size: 4.5rem;
+          font-weight: 900;
+          letter-spacing: 8px;
+          font-family: 'Impact', 'Arial Black', sans-serif;
+          background: linear-gradient(90deg, #C0C0C0, #DC2626, #1a1a1a, #B8860B, #FFD700, #DC2626, #C0C0C0, #1a1a1a, #C0C0C0);
+          background-size: 300% 100%;
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          color: transparent;
+          animation: freq528Pulse 2.2s ease-in-out infinite, freq528Shimmer 8s linear infinite;
+          display: inline-block;
+          margin: 0;
+          padding: 1rem 0;
+        }
+        @media (max-width: 640px) {
+          .freq-528-title { font-size: 2.5rem; letter-spacing: 4px; }
+        }
+      `}
+  </style>
+
+  <h1 className="freq-528-title">FREQUENCY 528</h1>
+</div>
+
 <div style={{ textAlign: 'center', padding: '3rem 1rem', background: 'linear-gradient(135deg, #1f2937 0%, #111827 100%)', borderRadius: '12px', marginBottom: '2rem', boxShadow: '0 10px 40px rgba(0,0,0,0.4)' }}>
   <h1 style={{ fontSize: '3rem', fontWeight: '900', color: '#ffffff', textShadow: '3px 3px 6px rgba(220, 38, 38, 0.6), 0 0 20px rgba(0,0,0,0.8)', margin: '0 0 1rem 0', letterSpacing: '2px' }}>
     YOU DREAM IT... I BUILD IT.
