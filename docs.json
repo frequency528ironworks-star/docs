@@ -79,4 +79,4 @@
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
-}
+},"css": "@keyframes smoothFadeGlow { 0%, 100% { opacity: 0.25; filter: drop-shadow(2px 4px 8px rgba(0,0,0,0.9)); } 50% { opacity: 1; filter: drop-shadow(4px 6px 12px rgba(0,0,0,1)); } } .metal-fade-glow { animation: smoothFadeGlow 5s ease-in-out infinite; }"
