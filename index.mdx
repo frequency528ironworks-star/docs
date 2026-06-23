@@ -6,112 +6,53 @@ description: "You dream it... I build it"
 <div style={{ textAlign: 'center', padding: '2rem 0 0.5rem 0' }}>
   <style>
     {`
-              @keyframes freq528Glow {
-                0%, 100% {
-                  filter: drop-shadow(0 0 6px rgba(192, 192, 192, 0.35)) drop-shadow(0 0 14px rgba(184, 134, 11, 0.25));
-                }
-                50% {
-                  filter: drop-shadow(0 0 14px rgba(220, 38, 38, 0.55)) drop-shadow(0 0 24px rgba(184, 134, 11, 0.45));
-                }
-              }
-              @keyframes freq528Shimmer {
-                0% { background-position: 0% 50%; }
-                100% { background-position: 200% 50%; }
-              }
-              .freq-528-title {
-                font-size: 3.75rem;
-                font-weight: 700;
-                letter-spacing: 0.5rem;
-                font-family: 'Playfair Display', 'Georgia', serif;
-                background: linear-gradient(90deg, #8a8a8a, #e8e8e8, #C0C0C0, #B8860B, #DC2626, #B8860B, #C0C0C0, #e8e8e8, #8a8a8a);
-                background-size: 200% 100%;
-                -webkit-background-clip: text;
-                background-clip: text;
-                -webkit-text-fill-color: transparent;
-                color: transparent;
-                animation: freq528Glow 4s ease-in-out infinite, freq528Shimmer 12s linear infinite;
-                display: inline-block;
-                margin: 0;
-                padding: 0.5rem 0;
-              }
-              .freq-528-sub {
-                font-family: 'Playfair Display', 'Georgia', serif;
-                font-size: 0.9rem;
-                letter-spacing: 0.4rem;
-                color: #9ca3af;
-                text-transform: uppercase;
-                margin-top: 0.25rem;
-              }
-              .freq-divider {
-                width: 60px;
-                height: 1px;
-                background: linear-gradient(90deg, transparent, #B8860B, transparent);
-                margin: 1.25rem auto 0 auto;
-              }
-              @media (max-width: 640px) {
-                .freq-528-title { font-size: 2.25rem; letter-spacing: 0.25rem; }
-                .freq-528-sub { font-size: 0.7rem; letter-spacing: 0.25rem; }
-              }
-            `}
-  </style>
-
-  <h1 className="freq-528-title">FREQUENCY 528</h1>
-
-  <div className="freq-528-sub">Iron Works · Forged By Hand</div>
-
-  <div className="freq-divider" />
-</div>
-
-<div style={{ textAlign: 'center', padding: '2rem 0 0.5rem 0' }}>
-  <style>
-    {`
-                  @keyframes freq528Glow {
-                    0%, 100% {
-                      filter: drop-shadow(0 0 6px rgba(192, 192, 192, 0.35)) drop-shadow(0 0 14px rgba(184, 134, 11, 0.25));
-                    }
-                    50% {
-                      filter: drop-shadow(0 0 14px rgba(220, 38, 38, 0.55)) drop-shadow(0 0 24px rgba(184, 134, 11, 0.45));
-                    }
-                  }
-                  @keyframes freq528Shimmer {
-                    0% { background-position: 0% 50%; }
-                    100% { background-position: 200% 50%; }
-                  }
-                  .freq-528-title {
-                    font-size: 3.75rem;
-                    font-weight: 700;
-                    letter-spacing: 0.5rem;
-                    font-family: 'Playfair Display', 'Georgia', serif;
-                    background: linear-gradient(90deg, #8a8a8a, #e8e8e8, #C0C0C0, #B8860B, #DC2626, #B8860B, #C0C0C0, #e8e8e8, #8a8a8a);
-                    background-size: 200% 100%;
-                    -webkit-background-clip: text;
-                    background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    color: transparent;
-                    animation: freq528Glow 4s ease-in-out infinite, freq528Shimmer 12s linear infinite;
-                    display: inline-block;
-                    margin: 0;
-                    padding: 0.5rem 0;
-                  }
-                  .freq-528-sub {
-                    font-family: 'Playfair Display', 'Georgia', serif;
-                    font-size: 0.9rem;
-                    letter-spacing: 0.4rem;
-                    color: #9ca3af;
-                    text-transform: uppercase;
-                    margin-top: 0.25rem;
-                  }
-                  .freq-divider {
-                    width: 60px;
-                    height: 1px;
-                    background: linear-gradient(90deg, transparent, #B8860B, transparent);
-                    margin: 1.25rem auto 0 auto;
-                  }
-                  @media (max-width: 640px) {
-                    .freq-528-title { font-size: 2.25rem; letter-spacing: 0.25rem; }
-                    .freq-528-sub { font-size: 0.7rem; letter-spacing: 0.25rem; }
-                  }
-                `}
+          @keyframes freq528Glow {
+            0%, 100% {
+              filter: drop-shadow(0 0 6px rgba(192, 192, 192, 0.35)) drop-shadow(0 0 14px rgba(220, 38, 38, 0.3));
+            }
+            50% {
+              filter: drop-shadow(0 0 16px rgba(220, 38, 38, 0.7)) drop-shadow(0 0 28px rgba(192, 192, 192, 0.5));
+            }
+          }
+          @keyframes freq528Shimmer {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 200% 50%; }
+          }
+          .freq-528-title {
+            font-size: 3.75rem;
+            font-weight: 700;
+            letter-spacing: 0.5rem;
+            font-family: 'Playfair Display', 'Georgia', serif;
+            background: linear-gradient(90deg, #6b7280, #d1d5db, #f3f4f6, #DC2626, #991B1B, #DC2626, #f3f4f6, #d1d5db, #6b7280);
+            background-size: 200% 100%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+            animation: freq528Glow 4s ease-in-out infinite, freq528Shimmer 12s linear infinite;
+            display: inline-block;
+            margin: 0;
+            padding: 0.5rem 0;
+          }
+          .freq-528-sub {
+            font-family: 'Playfair Display', 'Georgia', serif;
+            font-size: 0.9rem;
+            letter-spacing: 0.4rem;
+            color: #9ca3af;
+            text-transform: uppercase;
+            margin-top: 0.25rem;
+          }
+          .freq-divider {
+            width: 60px;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #DC2626, transparent);
+            margin: 1.25rem auto 0 auto;
+          }
+          @media (max-width: 640px) {
+            .freq-528-title { font-size: 2.25rem; letter-spacing: 0.25rem; }
+            .freq-528-sub { font-size: 0.7rem; letter-spacing: 0.25rem; }
+          }
+        `}
   </style>
 
   <h1 className="freq-528-title">FREQUENCY 528</h1>
@@ -130,7 +71,7 @@ description: "You dream it... I build it"
     Bespoke, hand-forged iron work designed for your home. Send us a photograph of your space, and our craftsmen will return a custom design rendered directly onto your image.
   </p>
 
-  <a href="/request-custom-design" style={{ display: 'inline-block', padding: '1rem 2.75rem', background: 'transparent', color: '#ffffff', fontSize: '0.85rem', fontWeight: '600', textDecoration: 'none', border: '1px solid #B8860B', borderRadius: '2px', letterSpacing: '3px', textTransform: 'uppercase' }}>
+  <a href="/request-custom-design" style={{ display: 'inline-block', padding: '1rem 2.75rem', background: 'linear-gradient(135deg, #DC2626 0%, #991B1B 100%)', color: '#ffffff', fontSize: '0.85rem', fontWeight: '600', textDecoration: 'none', border: '1px solid #DC2626', borderRadius: '2px', letterSpacing: '3px', textTransform: 'uppercase', boxShadow: '0 4px 15px rgba(220, 38, 38, 0.4)' }}>
     Request a Design
   </a>
 </div>
