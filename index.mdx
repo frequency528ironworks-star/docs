@@ -3,76 +3,109 @@ title: "Frequency528 Iron Works"
 description: "You dream it... I build it"
 ---
 
-<div style={{ textAlign: 'center', padding: '1rem 0 0 0' }}>
+<div style={{ textAlign: 'center', padding: '2rem 0 0.5rem 0' }}>
   <style>
     {`
-        @keyframes freq528Pulse {
-          0%, 100% {
-            transform: scale(1);
-            filter: drop-shadow(0 0 8px rgba(220, 38, 38, 0.5)) drop-shadow(0 0 16px rgba(192, 192, 192, 0.3));
+          @keyframes freq528Glow {
+            0%, 100% {
+              filter: drop-shadow(0 0 6px rgba(192, 192, 192, 0.35)) drop-shadow(0 0 14px rgba(184, 134, 11, 0.25));
+            }
+            50% {
+              filter: drop-shadow(0 0 14px rgba(220, 38, 38, 0.55)) drop-shadow(0 0 24px rgba(184, 134, 11, 0.45));
+            }
           }
-          50% {
-            transform: scale(1.06);
-            filter: drop-shadow(0 0 24px rgba(220, 38, 38, 0.95)) drop-shadow(0 0 36px rgba(184, 134, 11, 0.7));
+          @keyframes freq528Shimmer {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 200% 50%; }
           }
-        }
-        @keyframes freq528Shimmer {
-          0% { background-position: 0% 50%; }
-          100% { background-position: 300% 50%; }
-        }
-        .freq-528-title {
-          font-size: 4.5rem;
-          font-weight: 900;
-          letter-spacing: 8px;
-          font-family: 'Impact', 'Arial Black', sans-serif;
-          background: linear-gradient(90deg, #C0C0C0, #DC2626, #1a1a1a, #B8860B, #FFD700, #DC2626, #C0C0C0, #1a1a1a, #C0C0C0);
-          background-size: 300% 100%;
-          -webkit-background-clip: text;
-          background-clip: text;
-          -webkit-text-fill-color: transparent;
-          color: transparent;
-          animation: freq528Pulse 2.2s ease-in-out infinite, freq528Shimmer 8s linear infinite;
-          display: inline-block;
-          margin: 0;
-          padding: 1rem 0;
-        }
-        @media (max-width: 640px) {
-          .freq-528-title { font-size: 2.5rem; letter-spacing: 4px; }
-        }
-      `}
+          .freq-528-title {
+            font-size: 3.75rem;
+            font-weight: 700;
+            letter-spacing: 0.5rem;
+            font-family: 'Playfair Display', 'Georgia', serif;
+            background: linear-gradient(90deg, #8a8a8a, #e8e8e8, #C0C0C0, #B8860B, #DC2626, #B8860B, #C0C0C0, #e8e8e8, #8a8a8a);
+            background-size: 200% 100%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+            animation: freq528Glow 4s ease-in-out infinite, freq528Shimmer 12s linear infinite;
+            display: inline-block;
+            margin: 0;
+            padding: 0.5rem 0;
+          }
+          .freq-528-sub {
+            font-family: 'Playfair Display', 'Georgia', serif;
+            font-size: 0.9rem;
+            letter-spacing: 0.4rem;
+            color: #9ca3af;
+            text-transform: uppercase;
+            margin-top: 0.25rem;
+          }
+          .freq-divider {
+            width: 60px;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #B8860B, transparent);
+            margin: 1.25rem auto 0 auto;
+          }
+          @media (max-width: 640px) {
+            .freq-528-title { font-size: 2.25rem; letter-spacing: 0.25rem; }
+            .freq-528-sub { font-size: 0.7rem; letter-spacing: 0.25rem; }
+          }
+        `}
   </style>
 
   <h1 className="freq-528-title">FREQUENCY 528</h1>
+
+  <div className="freq-528-sub">Iron Works · Forged By Hand</div>
+
+  <div className="freq-divider" />
 </div>
 
-<div style={{ textAlign: 'center', padding: '3rem 1rem', background: 'linear-gradient(135deg, #1f2937 0%, #111827 100%)', borderRadius: '12px', marginBottom: '2rem', boxShadow: '0 10px 40px rgba(0,0,0,0.4)' }}>
-  <h1 style={{ fontSize: '3rem', fontWeight: '900', color: '#ffffff', textShadow: '3px 3px 6px rgba(220, 38, 38, 0.6), 0 0 20px rgba(0,0,0,0.8)', margin: '0 0 1rem 0', letterSpacing: '2px' }}>
-    YOU DREAM IT... I BUILD IT.
-  </h1>
-
-  <p style={{ fontSize: '1.25rem', color: '#f3f4f6', textShadow: '2px 2px 4px rgba(0,0,0,0.8)', margin: '0 0 2rem 0' }}>
-    Custom hand-crafted iron work, designed for your space.
+<div style={{ textAlign: 'center', padding: '3.5rem 1.5rem', background: 'linear-gradient(135deg, #0f0f10 0%, #1c1c1e 50%, #0f0f10 100%)', borderRadius: '4px', marginBottom: '2.5rem', boxShadow: '0 20px 50px rgba(0,0,0,0.5)', borderTop: '1px solid #2a2a2a', borderBottom: '1px solid #2a2a2a' }}>
+  <p style={{ fontFamily: 'Playfair Display, Georgia, serif', fontStyle: 'italic', fontSize: '2rem', color: '#f3f4f6', margin: '0', letterSpacing: '1px', fontWeight: '400' }}>
+    "You dream it. We build it."
   </p>
 
-  <a href="/request-custom-design" style={{ display: 'inline-block', padding: '1rem 2.5rem', background: 'linear-gradient(135deg, #DC2626 0%, #991B1B 100%)', color: '#ffffff', fontSize: '1.15rem', fontWeight: 'bold', textDecoration: 'none', borderRadius: '8px', textShadow: '2px 2px 4px rgba(0,0,0,0.6)', boxShadow: '0 6px 20px rgba(220, 38, 38, 0.5)', letterSpacing: '1px' }}>
-    GET MY FREE DESIGN MOCKUP →
+  <p style={{ fontSize: '1.05rem', color: '#9ca3af', margin: '1.5rem auto 2.5rem auto', maxWidth: '560px', lineHeight: '1.7' }}>
+    Bespoke, hand-forged iron work designed for your home. Send us a photograph of your space, and our craftsmen will return a custom design rendered directly onto your image.
+  </p>
+
+  <a href="/request-custom-design" style={{ display: 'inline-block', padding: '1rem 2.75rem', background: 'transparent', color: '#ffffff', fontSize: '0.85rem', fontWeight: '600', textDecoration: 'none', border: '1px solid #B8860B', borderRadius: '2px', letterSpacing: '3px', textTransform: 'uppercase' }}>
+    Request a Design
   </a>
 </div>
 
-## How it works
+## Our Process
 
 <Steps>
-  <Step title="Send us your photos">
-    Email us photos of the area where you want custom iron work — gates, railings, doors, windows, you name it.
+  <Step title="Share Your Vision">
+    Email a photograph of the space — gate, railing, door, window, or fixture — along with measurements and any inspiration you have in mind.
   </Step>
-  <Step title="We design your overlay">
-    Our team designs your custom piece and overlays it onto your photo so you can see exactly how it'll look.
+  <Step title="Receive Your Rendering">
+    Our designers overlay a custom iron work concept directly onto your photograph, so you can see exactly how it will look in place.
   </Step>
-  <Step title="You approve, we build">
-    Once you love the design, we hand-craft and deliver your one-of-a-kind iron work.
+  <Step title="We Forge It By Hand">
+    Once your design is approved, every piece is hand-crafted in our shop and delivered ready to install.
   </Step>
 </Steps>
 
-<Card title="Request a Custom Design" icon="pen-ruler" horizontal href="/request-custom-design">
-  Send us your photos and we'll send back a visual of your custom iron work — free, no commitment.
+## Why Frequency528
+
+<Columns cols={3}>
+  <Card title="Hand-Forged" icon="hammer">
+    Every piece crafted individually — no mass production, no shortcuts.
+  </Card>
+
+  <Card title="Custom Renderings" icon="image">
+    See your design on your space before a single piece of iron is bent.
+  </Card>
+
+  <Card title="Built to Last" icon="shield">
+    Heirloom-quality iron work designed to outlive the home it adorns.
+  </Card>
+</Columns>
+
+<Card title="Begin Your Custom Design" icon="pen-ruler" horizontal href="/request-custom-design">
+  Send us a photograph of your space. Receive a complimentary design rendering — no obligation.
 </Card>
