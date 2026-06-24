@@ -1,34 +1,74 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Mintlify Starter Kit",
   "colors": {
-    "primary": "#DC2626",
+    "primary": "#B5A642",
     "light": "#EF4444",
     "dark": "#991B1B"
   },
+  "logo": {
+    "light": "/images/IMG_2113(3).JPG",
+    "dark": "/logo/dark.svg"
+  },
   "favicon": "/favicon.svg",
-  "navigation": {
-    "pages": [
+  "navbar": {
+    "links": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
+        "href": "mailto:hi@mintlify.com",
+        "label": "Support"
+      },
+      {
+        "href": "https://github.com/frequency528ironworks-star/docs",
+        "label": "edit"
+      },
+      {
+        "href": "mailto:frequency528ironworks@gmail.com",
+        "label": "contact"
       }
     ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://app.mintlify.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ],
+    "display": "header"
+  },
+  "background": {
+    "color": {
+      "light": "#F0F0F0"
+    }
+  },
+  "navigation": {
     "global": {
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "icon": "book-open-cover",
+          "href": "https://mintlify.com/docs"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "icon": "newspaper",
+          "href": "https://mintlify.com/blog"
         }
       ]
     },
@@ -42,41 +82,5 @@
         ]
       }
     ]
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   }
-},"css": "@keyframes smoothFadeGlow { 0%, 100% { opacity: 0.25; filter: drop-shadow(2px 4px 8px rgba(0,0,0,0.9)); } 50% { opacity: 1; filter: drop-shadow(4px 6px 12px rgba(0,0,0,1)); } } .metal-fade-glow { animation: smoothFadeGlow 5s ease-in-out infinite; }"
+}
