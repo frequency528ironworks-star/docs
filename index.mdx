@@ -1,3 +1,110 @@
 ---
 title: "Home"
 ---
+
+<div style={{ textAlign: 'center', padding: '2rem 0 0.5rem 0' }}>
+  <style>
+    {`
+          @keyframes freq528Glow {
+            0%, 100% {
+              filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.9)) drop-shadow(0 0 8px rgba(192, 192, 192, 0.4));
+            }
+            50% {
+              filter: drop-shadow(3px 3px 6px rgba(0,0,0,0.95)) drop-shadow(0 0 18px rgba(220, 38, 38, 0.75)) drop-shadow(0 0 28px rgba(220, 220, 220, 0.5));
+            }
+          }
+          @keyframes freq528Shimmer {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 200% 50%; }
+          }
+          .freq-528-title {
+            font-size: 4.5rem;
+            font-weight: 900;
+            letter-spacing: 0.5rem;
+            font-family: 'Playfair Display', 'Georgia', serif;
+            background: linear-gradient(90deg, #4a4a4a, #b8b8b8, #f5f5f5, #ffffff, #DC2626, #991B1B, #DC2626, #ffffff, #f5f5f5, #b8b8b8, #4a4a4a);
+            background-size: 200% 100%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+            animation: freq528Glow 3s ease-in-out infinite, freq528Shimmer 8s linear infinite;
+            display: inline-block;
+            margin: 0;
+            padding: 0.5rem 0;
+          }
+          .freq-528-sub {
+            font-family: 'Playfair Display', 'Georgia', serif;
+            font-size: 0.9rem;
+            letter-spacing: 0.4rem;
+            color: #9ca3af;
+            text-transform: uppercase;
+            margin-top: 0.5rem;
+          }
+          .freq-divider {
+            width: 60px;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #DC2626, transparent);
+            margin: 1.25rem auto 0 auto;
+          }
+          @media (max-width: 640px) {
+            .freq-528-title { font-size: 2.5rem; letter-spacing: 0.25rem; }
+            .freq-528-sub { font-size: 0.7rem; letter-spacing: 0.25rem; }
+          }
+        `}
+  </style>
+
+  <h1 className="freq-528-title">FREQUENCY 528</h1>
+
+  <div className="freq-528-sub">Iron Works · Forged By Hand</div>
+
+  <div className="freq-divider" />
+</div>
+
+<div style={{ textAlign: 'center', padding: '3.5rem 1.5rem', background: 'rgba(15, 15, 16, 0.55)', backdropFilter: 'blur(6px)', WebkitBackdropFilter: 'blur(6px)', borderRadius: '4px', marginBottom: '2.5rem', boxShadow: '0 20px 50px rgba(0,0,0,0.4)', borderTop: '1px solid rgba(255,255,255,0.08)', borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
+  <p style={{ fontFamily: 'Playfair Display, Georgia, serif', fontStyle: 'italic', fontSize: '2rem', color: '#f3f4f6', margin: '0', letterSpacing: '1px', fontWeight: '400', textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
+    "You dream it. We build it."
+  </p>
+
+  <p style={{ fontSize: '1.05rem', color: '#d1d5db', margin: '1.5rem auto 2.5rem auto', maxWidth: '560px', lineHeight: '1.7', textShadow: '1px 1px 3px rgba(0,0,0,0.7)' }}>
+    Bespoke, hand-forged iron work designed for your home. Send us a photograph of your space, and our craftsmen will return a custom design rendered directly onto your image.
+  </p>
+
+  <a href="/request-custom-design" style={{ display: 'inline-block', padding: '1rem 2.75rem', background: 'linear-gradient(135deg, #DC2626 0%, #991B1B 100%)', color: '#ffffff', fontSize: '0.85rem', fontWeight: '600', textDecoration: 'none', border: '1px solid #DC2626', borderRadius: '2px', letterSpacing: '3px', textTransform: 'uppercase', boxShadow: '0 4px 15px rgba(220, 38, 38, 0.4)' }}>
+    Request a Design
+  </a>
+</div>
+
+## Our Process
+
+<Steps>
+  <Step title="Share Your Vision">
+    Email a photograph of the space — gate, railing, door, window, or fixture — along with measurements and any inspiration you have in mind.
+  </Step>
+  <Step title="Receive Your Rendering">
+    Our designers overlay a custom iron work concept directly onto your photograph, so you can see exactly how it will look in place.
+  </Step>
+  <Step title="We Forge It By Hand">
+    Once your design is approved, every piece is hand-crafted in our shop and delivered ready to install.
+  </Step>
+</Steps>
+
+## Why Frequency528
+
+<Columns cols={3}>
+  <Card title="Hand-Forged" icon="hammer">
+    Every piece crafted individually — no mass production, no shortcuts.
+  </Card>
+
+  <Card title="Custom Renderings" icon="image">
+    See your design on your space before a single piece of iron is bent.
+  </Card>
+
+  <Card title="Built to Last" icon="shield">
+    Heirloom-quality iron work designed to outlive the home it adorns.
+  </Card>
+</Columns>
+
+<Card title="Begin Your Custom Design" icon="pen-ruler" horizontal href="/request-custom-design">
+  Send us a photograph of your space. Receive a complimentary design rendering — no obligation.
+</Card>
