@@ -78,7 +78,8 @@
         "pages": [
           "index",
           "quickstart",
-          "request-custom-design"
+          "request-custom-design",
+          "gallery"
         ]
       }
     ]
